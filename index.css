@@ -23,7 +23,7 @@
 
 .topnav{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .topnavItem{
@@ -205,7 +205,8 @@
     
 .aboutTitle {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 70px;
+    flex-wrap: wrap;
 }
 
 .topnavOption{
@@ -267,6 +268,11 @@
     color : white;
     font-size: 30px;
     margin-bottom: 2%;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: row;
 }
     
 }
