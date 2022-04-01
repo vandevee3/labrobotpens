@@ -1,0 +1,278 @@
+*{
+    margin : 0; 
+}
+.container{
+    display: flex;
+    background-color: #f5f5fa;
+    flex-direction: column;
+}
+
+.logoLAB {
+    color : white
+}
+
+.topbar{
+    height: '20%';
+    width: '100%';
+    background-color: #1c3059;
+    display: flex;
+    flex-direction: 'row';
+    justify-content: space-between;
+    padding: 3vh 2vw;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: column;
+}
+
+.topnavItem{
+    justify-content: center;
+    align-items: center;
+    margin-right: 3vw;
+}
+
+.topnavOption{
+    color: black;
+    text-decoration-line:none ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color : white;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aboutLab{
+    margin-top: 10vh;
+    display : flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex : 0.72;
+    height: 40vh;
+    margin-bottom: 5vh;
+}
+
+.pictAbout{
+    flex : 0.25;
+}
+
+
+.aboutTitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.aboutDesc {
+    margin-top : 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 15px;
+    text-align:justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.teamContainer{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.teamList{
+    width: 25vw;
+    flex: flex;
+    margin-top: 20px;
+    
+}
+.contactInformation{
+    
+}
+
+.botbar{
+    background-color: #616b8e;
+    padding-bottom: 3%;
+}
+
+.structurContainer{
+    background-color: #2d3a64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-direction: column;
+}
+
+.structText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : white;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.structImg {
+    width: 80vw;
+}
+
+.VisiMisiContainer{
+    background-color: #f5f5fa;
+    padding: 5vh 4vw;
+}
+
+
+.VisiTitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.VisiText{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.MisiContainer{
+    margin-top: 2%;
+}
+
+.MisiTitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.MisiText{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.aboutButton{
+    margin-top: 10px;
+    width: 60px;
+    height: 25px;
+    background-color: #3b466d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.buttonTitle{
+    font-size: 8px;
+}
+
+.logoErsow{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.timText{
+    flex: 2;
+}
+
+.timTitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.timDesc{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-right: 20px;
+    letter-spacing: 0.05cm;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    
+.aboutTitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    flex-wrap: wrap;
+}
+
+.topnavOption{
+    color: black;
+    text-decoration-line:none ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color : white;
+}
+
+.aboutDesc {
+    margin-top : 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    text-align:justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.aboutButton{
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    background-color: #3b466d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.buttonTitle{
+    font-size: 15px;
+}
+
+.logoErsow{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.teamContainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.structText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : white;
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+}
+    
+}
