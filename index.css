@@ -36,7 +36,7 @@
     color: black;
     text-decoration-line:none ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
+    font-size: '2%';
     color : white;
 }
 
@@ -47,13 +47,14 @@
 }
 
 .aboutLab{
-    margin-top: 30px;
+    margin-top: 5vh;
     display : flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     flex : 0.72;
     height: 40vh;
+    margin-bottom: 5vh;
 }
 
 .pictAbout{
@@ -61,7 +62,7 @@
 }
 
 .aboutTitle {
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4vw;
 }
 
@@ -69,6 +70,7 @@
     margin-top : 1%;
     padding-left: 10%;
     padding-right: 10%;
+    font-size: 1vw * 2;
     text-align:justify;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
