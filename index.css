@@ -38,15 +38,10 @@
     color: black;
     text-decoration-line:none ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     color : white;
 }
 
-.aboutContainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
 .aboutLab{
     margin-top: 10vh;
@@ -204,13 +199,15 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction:  column;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 3%;
+    padding-left: 3%;
     padding-top: 5%;
 }   
 
 .frameVideo{
-    width: 80vw;
+    justify-content: center;
+    align-self: center;
+    width: 90vw;
     height: 50vh;
     margin-bottom: 20px;
 }
