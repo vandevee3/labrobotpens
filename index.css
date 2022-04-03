@@ -9,25 +9,29 @@
 
 .logoLAB {
     color : white;
-    flex : 1;
+    width: 180px;
+    height: 80px;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .topbar{
-    height: '20%';
     width: '100%';
     background-color: #1c3059;
     display: flex;
     flex-direction: 'row';
     justify-content: space-between;
-    padding: 3vh 2vw;
+    padding: 1vh 2vw;
 }
 
 .topnav{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items:flex-end;
-    flex:  0.5;
 }
 
 .topnavItem{
@@ -41,6 +45,7 @@
     text-decoration-line:none ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
+    line-height: 25px;
     color : white;
 }
 
@@ -97,7 +102,12 @@
     margin-top: 20px;
 }
 .contactInformation{
-    
+    padding-left: 10vw;
+    padding-top: 10vh;
+    padding-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .botbar{
@@ -110,8 +120,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     flex-direction: column;
 }
 
@@ -119,7 +129,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color : white;
     font-size: 20px;
-    margin-bottom: 2%;
+    margin-bottom: 4vh;
 }
 
 .structImg {
@@ -140,6 +150,7 @@
 
 .VisiText{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
 }
 
 .MisiContainer{
@@ -155,6 +166,7 @@
 .MisiText{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .aboutButton{
@@ -213,6 +225,73 @@
     height: 50vh;
     margin-bottom: 20px;
 }
+
+.lokasiText{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:100%;
+}
+
+
+.logoeilero{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logoeira{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.instagramPict{
+    width: 30px;
+    height: 30px;
+}
+
+.emailLogo{
+    margin-left: 20px;
+}
+
+.emailPict{
+    width: 30px;
+    height: 30px;
+}
+
+.infoLogo{
+    display: flex;
+    flex-direction: row;
+}
+
+.tagText{
+    padding-right: 5vw;
+    margin-top: 20px;
+}
+
+.tagTextStyle{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
 
 
 
@@ -328,6 +407,92 @@
     flex: flex;
     margin-top: 20px;
     
+}
+
+.lokasiText{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gmap_canvas {
+    display: flex;
+    overflow:hidden;
+    width: 100%;
+    background:none!important;
+    height:500px;
+}
+
+.logoeilero{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logoeira{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.structImg {
+    height: 100vh;
+    width: 80vw;
+}
+
+.structurContainer{
+    background-color: #2d3a64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vh;
+    padding-bottom: 10vh;
+    flex-direction: column;
+}
+
+.instagramPict{
+    width: 40px;
+    height: 40px;
+}
+
+.emailLogo{
+    margin-left: 20px;
+}
+
+.emailPict{
+    width: 40px;
+    height: 40px;
+}
+
+.infoLogo{
+    display: flex;
+    flex-direction: row;
+}
+
+.tagText{
+    padding-right: 5vw;
+}
+
+.tagTextStyle{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactInformation{
+    padding-left: 10vw;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 }
